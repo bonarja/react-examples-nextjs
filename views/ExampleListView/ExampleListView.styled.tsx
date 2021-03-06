@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ExamplesViewStyles = styled.div`
+export const ExampleListViewStyles = styled.div`
     position: absolute;
     left: 0;
     top: 0;

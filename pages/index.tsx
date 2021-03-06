@@ -14,7 +14,7 @@ const Hello = () => {
         <div>
             <h1 style={{ marginTop: 0 }}>HOLA!</h1>
 
-            <Link href="/examples">
+            <Link href="/example">
                 <a className="cover">
                     <div style={BtnStyle}>mostrar ejemplos</div>
                 </a>
