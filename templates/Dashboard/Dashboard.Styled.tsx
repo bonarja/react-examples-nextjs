@@ -38,6 +38,7 @@ export const DashboardStyles = styled.div`
             position: absolute;
             left: -25px;
             top: -25px;
+            background: inherit;
         }
         .wrapContent {
             position: absolute;
@@ -57,9 +58,11 @@ export const DashboardStyles = styled.div`
                 font-weight: bold;
                 letter-spacing: 0.015em;
                 font-size: 0.8em;
+                box-shadow: 0px 8px 34px -6px #cfb5c799;
             }
             .content {
                 padding: 25px;
+                position: relative;
             }
         }
     }

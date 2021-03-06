@@ -1,4 +1,3 @@
-import { Assets } from "../../assets/assets";
 import { DashboardStyles } from "./Dashboard.Styled";
 
 const Header = ({ title }) => {
@@ -11,13 +10,13 @@ const Header = ({ title }) => {
 };
 
 const DasboaradTemplate = ({ children, ...props }) => {
-    const { page } = props;
+    const { title } = props;
 
     return (
         <DashboardStyles headerSize={50}>
             <div className="window animate__animated animate__slideInDown">
                 <div className="wrapContent">
-                    <Header title={page} />
+                    <Header title={title} />
                     <div className="content">{children}</div>
                 </div>
             </div>
